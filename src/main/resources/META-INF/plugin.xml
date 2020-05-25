@@ -22,5 +22,11 @@
                          level="WARNING" enabledByDefault="true"
                          language="Scala" />
 
+        <localInspection implementationClass="inspections.DetectUnusedExpressionsInspection"
+                         displayName="Detects unused ZIO expressions that are mistakenly used like statements"
+                         groupName="Simplifications" groupPath="Scala,ZIO"
+                         level="WARNING" enabledByDefault="true"
+                         language="Scala" />
+
     </extensions>
 </idea-plugin>
